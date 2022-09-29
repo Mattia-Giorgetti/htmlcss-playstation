@@ -1,0 +1,92 @@
+:root {
+    --black: #1f1f1f;
+    --white: #d9dadc;
+    --gray: #bebcbb;
+    --red: #cd3d0f;
+    --lightblue: #3a6de7;
+    --dark_blue: #161c3b;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.myBg_dark_blue {
+    background-color: var(--dark_blue);
+}
+.myBg_light_gray {
+    background-color: var(--gray);
+}
+.myBg_black {
+    background-color: var(--black);
+}
+.myBg_light_blue {
+    background-color: var(--lightblue);
+}
+.myBg_red {
+    background-color: var(--red);
+}
+.big_txt {
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+.small_txt {
+    font-size: 0.9rem;
+}
+.myBtn {
+    border: none;
+    border-radius: 20px;
+    padding:.4rem 1rem ;
+}
+
+/* Header  */
+.logo img {
+    width: 70px;
+}
+
+/* Main  */
+#jumbo {
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center top;
+    min-height: 600px;
+}
+
+#carousel p.text-primary {
+    margin-bottom: 0;
+}
+#carousel p.text-secondary, #products p.text-secondary, 
+#sales p.text-secondary {
+    font-size: 1.2rem;
+}
+
+#jumbo_2 {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    min-height: 600px;
+}
+.ps_plus_logo img {
+    width: 40%;
+}
+.ps_now_logo img {
+    width: 30%;
+}
+
+/* FOOTER  */
+
+img.ps_footer {
+    width: 120px;
+}
+img.lang_globe {
+    width: 20px;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+}
+footer ul li {
+    list-style: none;
+}
+p.disclaimer {
+    font-size: 0.8rem;
+}
+p.disclaimer a {
+    text-decoration: underline;
+}
