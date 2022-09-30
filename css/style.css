@@ -36,6 +36,22 @@ body {
     border-radius: 20px;
     padding:.4rem 1rem ;
 }
+nav button.myBtn:hover {
+    outline: 2px solid black;
+    outline-offset: 2px;
+}
+#jumbo button.myBtn:hover, #jumbo_2 button.myBtn:hover {
+    outline: 2px solid var(--red);
+    outline-offset: 2px;
+}
+#carousel button.myBtn:hover, #products button.myBtn:hover {
+    outline: 2px solid var(--lightblue);
+    outline-offset: 2px;
+}
+#PS_plus button.myBtn:hover, #play_now button.myBtn:hover {
+    outline: 2px solid var(--white);
+    outline-offset: 2px;
+}
 
 /* Header  */
 .logo img {
@@ -64,9 +80,13 @@ nav a.nav-link.dropdown-toggle:hover img.chev_gray {
 nav a.nav-link.dropdown-toggle::after {
     display: none;
 }
-
-
-
+nav i {
+    color: gray;
+    font-size: 12px;
+}
+nav a.nav-link.dropdown-toggle:hover i {
+    color: var(--lightblue);
+}
 
 /* Main  */
 #jumbo {
@@ -74,19 +94,45 @@ nav a.nav-link.dropdown-toggle::after {
     background-position: center top;
     min-height: 600px;
 }
-
+#cards div.game_card img {
+    transition: all 0.5s;
+}
+#cards div.game_card img:hover {
+    cursor: pointer;
+    transform: translateY(-10px);
+    box-shadow: 0px 8px 10px gray;
+}
+.active_card {
+    border: 2px solid var(--lightblue);
+    padding: 3px;
+}
 #carousel p.text-primary {
     margin-bottom: 0;
+}
+.prod_carousel div.text-center {
+    opacity: 0.6;
+    transition: all 0.3s;
+}
+.prod_carousel div.text-center:hover {
+    opacity: 1;
+    border-bottom: 2px solid var(--lightblue) ;
+    cursor: pointer;
 }
 #carousel p.text-secondary, #products p.text-secondary, 
 #sales p.text-secondary {
     font-size: 1.2rem;
 }
-
 #jumbo_2 {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-position: center;
     min-height: 600px;
+}
+#nuove-uscite img.img-fluid {
+    transition: all 0.5s;
+}
+#nuove-uscite img.img-fluid:hover {
+    transform: scale(1.07);
+    cursor: pointer;
 }
 .ps_plus_logo img {
     width: 50%;
@@ -94,16 +140,22 @@ nav a.nav-link.dropdown-toggle::after {
 .ps_now_logo img {
     width: 50%;
 }
+#sales div.row img {
+    transition: all 0.5s ;
+}
+#sales div.row img:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
 .social_container {
     width: 92%;
     margin: 0 auto;
 }
-.prod_carousel div.text-center {
-    opacity: 0.6;
+.social_container img {
+    transition: all 0.5s;
 }
-.prod_carousel div.text-center:hover {
-    opacity: 1;
-    border-bottom: 3px solid var(--lightblue) ;
+.social_container img:hover {
+    transform: scale(1.1);
     cursor: pointer;
 }
 
