@@ -98,13 +98,13 @@ p.disclaimer a {
         background-image: url(../img/ps-plus-april-monthly-games-featured-image-block.png);
         background-size: contain;
         background-repeat: no-repeat;
-        background-position: right;
+        background-position: 90%;
     }
     #play_now {
         background-image: url(../img/ps-now-april-featured-image-block.png);
         background-size: contain;
         background-repeat: no-repeat;
-        background-position: right;
+        background-position: 90%;
     }
     div.prod_carousel img {
         width: 70%;
