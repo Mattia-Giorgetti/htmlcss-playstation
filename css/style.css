@@ -42,6 +42,32 @@ body {
     width: 70px;
 }
 
+/* NAVBAR  */
+nav li {
+    list-style: none;
+}
+nav a.nav-link.dropdown-toggle {
+    color: black;
+}
+nav a.nav-link.dropdown-toggle:hover {
+    color: var(--lightblue);
+}
+img.chev_blue {
+    display: none;
+}
+nav a.nav-link.dropdown-toggle:hover img.chev_blue {
+    display: block;
+}
+nav a.nav-link.dropdown-toggle:hover img.chev_gray {
+    display: none;
+}
+nav a.nav-link.dropdown-toggle::after {
+    display: none;
+}
+
+
+
+
 /* Main  */
 #jumbo {
     background-image: url(../img/jumbo-bg.png);
@@ -63,14 +89,22 @@ body {
     min-height: 600px;
 }
 .ps_plus_logo img {
-    width: 40%;
+    width: 50%;
 }
 .ps_now_logo img {
-    width: 30%;
+    width: 50%;
 }
 .social_container {
     width: 92%;
     margin: 0 auto;
+}
+.prod_carousel div.text-center {
+    opacity: 0.6;
+}
+.prod_carousel div.text-center:hover {
+    opacity: 1;
+    border-bottom: 3px solid var(--lightblue) ;
+    cursor: pointer;
 }
 
 /* FOOTER  */
@@ -84,6 +118,9 @@ img.lang_globe {
 footer a {
     text-decoration: none;
     color: white;
+}
+footer a:hover {
+    color: var(--gray);
 }
 footer ul li {
     list-style: none;
@@ -120,5 +157,15 @@ p.disclaimer a {
 @media screen and (min-width:992px) {
     .social_container {
         width: 50%;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    #play_now {
+        height: 500px;
+    }
+    #play_now div.row p {
+        line-height: 40px;
+        font-size: 1.2rem;
     }
 }

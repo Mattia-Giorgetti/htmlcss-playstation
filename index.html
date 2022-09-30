@@ -15,11 +15,122 @@
 </head>
 <body>
     <header>
-        <div class="logo bg-black d-flex justify-content-end p-2">
+        <div class="logo bg-black d-flex justify-content-end p-3">
             <img src="img/sony_logo.svg" alt="sony logo">
         </div>
-        <nav>nav</nav>
     </header>
+
+        <!-- NAVBAR  -->
+        <nav class="navbar sticky-top navbar-expand-lg bg-white py-0">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="img/play_logo.svg" alt="ps-blue-logo">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+               <!-- NAV ESTESA  -->
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Giochi
+                      <img class="ps-1 chev_gray" src="img/chevron-down-solid.svg" alt="chevdown" width="15">
+                      <img class="ps-1 chev_blue" src="img/chevron-down-solid-hover.svg" alt="chevdown_hover" width="15">
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Hardware
+                      <img class="ps-1 me-2" src="img/chevron-down-solid.svg" alt="chevdown" width="15">
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Servizi
+                      <img class="ps-1 me-2" src="img/chevron-down-solid.svg" alt="chevdown" width="15">
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Novità
+                      <img class="ps-1 me-2" src="img/chevron-down-solid.svg" alt="chevdown" width="15">
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Fai acquisti
+                      <img class="ps-1 me-2" src="img/chevron-down-solid.svg" alt="chevdown" width="15">
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Supporto
+                      <img class="ps-1 me-2" src="img/chevron-down-solid.svg" alt="chevdown" width="15">
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  
+                  <!-- PARTE DX NAVBAR -->
+                </ul>
+                <ul class="d-flex align-items-center mb-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle p-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          MyPlayStation
+                          <img class="ps-1" src="img/chevron-down-solid.svg" alt="chevdown" width="15">
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                  
+                  <button class="myBtn myBg_black text-white mx-3" type="button">Accedi</button>
+                  <a href="#">
+                    <img class="mx-2 lens_search" src="img/lens.svg" alt="search_lens" width="25">
+                  </a>
+                </ul>
+              </div>
+            </div>
+          </nav>
     <main>
          
         <!-- Jumbo  -->
@@ -79,23 +190,23 @@
             </div>
             <div class="row prod_carousel">
                 <div class="col-4 col-md text-center">
-                    <img class="img-fluid" src="img/playstation-5-thumb.png" alt="ps5thumb">
+                    <img class="img-fluid pb-3" src="img/playstation-5-thumb.png" alt="ps5thumb">
                     <p class="small_txt d-none d-md-block opa">Console PS5</p>
                 </div>
                 <div class="col-4 col-md text-center">
-                    <img class="img-fluid" src="img/joypad-thumb.png" alt="joythumb">
+                    <img class="img-fluid pb-3" src="img/joypad-thumb.png" alt="joythumb">
                     <p class="small_txt d-none d-md-block">Controller wireless DualSense™</p>
                 </div>
                 <div class="col-4 col-md text-center">
-                    <img class="img-fluid" src="img/headset-thumb.png" alt="headsetthumb">
+                    <img class="img-fluid pb-3" src="img/headset-thumb.png" alt="headsetthumb">
                     <p class="small_txt d-none d-md-block">Cuffie wireless con microfono PULSE 3™</p>
                 </div>
                 <div class="col-4 col-md text-center">
-                    <img class="img-fluid" src="img/remote-thumb.png" alt="remotethumb">
+                    <img class="img-fluid pb-3" src="img/remote-thumb.png" alt="remotethumb">
                     <p class="small_txt d-none d-md-block">Telecomando Media</p>
                 </div>
                 <div class="col-4 col-md text-center">
-                    <img class="img-fluid" src="img/camera-thumb.jpg" alt="camerathumb">
+                    <img class="img-fluid pb-3" src="img/camera-thumb.jpg" alt="camerathumb">
                     <p class="small_txt d-none d-md-block">Telecamera HD</p>
                 </div>
             </div>
@@ -247,14 +358,14 @@
             <!-- PLAYSTATION NOW -->
 
         </section>
-        <section id="play_now" class="container-fluid myBg_dark_blue py-5">
+        <section id="play_now" class="container-fluid myBg_dark_blue py-5 d-xl-flex flex-xl-column justify-content-xl-center">
             <div class="container-sm">
                 <div class="row">
                     <div class="col-12 col-md-6">
                         <div class="ps_now_logo">
                             <img class="img-fluid mb-4" src="img/ps-now-logo-two-column.png" alt="psnow_logo">
                         </div>
-                        <p class="small_txt text-white mb-4">Ottieni l'accesso immediato a una vastissima raccolta di oltre 800 giochi per PS4, PS3 e PS2 su PS4 o PC Windows, con nuovi titoli aggiunti ogni mese.</p>
+                        <p class="small_txt text-white mb-4 my-xl-5">Ottieni l'accesso immediato a una vastissima raccolta di oltre 800 giochi per PS4, PS3 e PS2 su PS4 o PC Windows, con nuovi titoli aggiunti ogni mese.</p>
                         <div><button class="myBtn bg-gray small_txt text-black mb-4">Esplora PlayStation Now</button></div>
                     </div>
                 </div>
