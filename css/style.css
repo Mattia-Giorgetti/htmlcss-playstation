@@ -68,15 +68,6 @@ nav a.nav-link.dropdown-toggle {
 nav a.nav-link.dropdown-toggle:hover {
     color: var(--lightblue);
 }
-img.chev_blue {
-    display: none;
-}
-nav a.nav-link.dropdown-toggle:hover img.chev_blue {
-    display: block;
-}
-nav a.nav-link.dropdown-toggle:hover img.chev_gray {
-    display: none;
-}
 nav a.nav-link.dropdown-toggle::after {
     display: none;
 }
@@ -86,6 +77,19 @@ nav i {
 }
 nav a.nav-link.dropdown-toggle:hover i {
     color: var(--lightblue);
+}
+.toggle_card:hover {
+    border: 1px solid white;
+    border-radius: 6px;
+    box-shadow: 1px 2px 5px var(--gray);
+    cursor: pointer;
+}
+.game_type span:hover {
+    color: var(--lightblue);
+    cursor: pointer;
+}
+.console_row {
+    height: 140px;
 }
 
 /* Main  */
@@ -217,7 +221,6 @@ p.disclaimer a {
         left: -104%;
         border-top: none;
     }
-   
 }
 
 @media screen and (min-width:1200px) {
