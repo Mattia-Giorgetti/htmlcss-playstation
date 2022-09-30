@@ -68,6 +68,10 @@ body {
 .ps_now_logo img {
     width: 30%;
 }
+.social_container {
+    width: 92%;
+    margin: 0 auto;
+}
 
 /* FOOTER  */
 
@@ -108,5 +112,13 @@ p.disclaimer a {
     }
     div.prod_carousel img {
         width: 70%;
+    }
+    .social_container {
+        width: 75%;
+    }
+}
+@media screen and (min-width:992px) {
+    .social_container {
+        width: 50%;
     }
 }
