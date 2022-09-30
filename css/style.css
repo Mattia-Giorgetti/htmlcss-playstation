@@ -90,3 +90,23 @@ p.disclaimer {
 p.disclaimer a {
     text-decoration: underline;
 }
+
+/* MEDIA QUERIES  */
+
+@media screen and (min-width:768px) {
+    #PS_plus {
+        background-image: url(../img/ps-plus-april-monthly-games-featured-image-block.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    #play_now {
+        background-image: url(../img/ps-now-april-featured-image-block.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    div.prod_carousel img {
+        width: 70%;
+    }
+}
